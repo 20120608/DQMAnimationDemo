@@ -28,14 +28,14 @@
   manager.enableAutoToolbar = YES;//控制是否显示键盘上的工具条。
   manager.keyboardDistanceFromTextField = 10.0f; // 输入框距离键盘的距离
   
-  [self.window addSubview:[[YYFPSLabel alloc] initWithFrame:CGRectMake(20, 90, 0, 0)]];
   
   self.window.rootViewController = [[DQMTabBarController alloc] init];
   [self.window makeKeyAndVisible];
   
   
   
-  
+  [self.window addSubview:[[YYFPSLabel alloc] initWithFrame:CGRectMake(20, 90, 0, 0)]];
+
   
   return YES;
 }

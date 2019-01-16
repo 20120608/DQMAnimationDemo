@@ -41,8 +41,23 @@
 		59A49C4C21D06F7E00FEBB7E /* DQMNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A49C2F21D06F7E00FEBB7E /* DQMNavigationBar.m */; };
 		59A49C4D21D06F7E00FEBB7E /* StaticListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A49C3021D06F7E00FEBB7E /* StaticListTableViewCell.m */; };
 		59A49C4E21D06F7E00FEBB7E /* DQMAutoRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A49C3421D06F7E00FEBB7E /* DQMAutoRefreshFooter.m */; };
-		59A49C5321D071C900FEBB7E /* AnimationHomeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A49C5221D071C900FEBB7E /* AnimationHomeListViewController.m */; };
 		59A49C5621D0732700FEBB7E /* DQMTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A49C5521D0732700FEBB7E /* DQMTabBarController.m */; };
+		59A49C6321D07A4300FEBB7E /* DQMFoldingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A49C5A21D07A4300FEBB7E /* DQMFoldingTableViewController.m */; };
+		59A49C6421D07A4300FEBB7E /* DQMGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A49C5E21D07A4300FEBB7E /* DQMGroup.m */; };
+		59A49C6521D07A4300FEBB7E /* DQMTeam.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A49C5F21D07A4300FEBB7E /* DQMTeam.m */; };
+		59A49C6621D07A4300FEBB7E /* DQMListExpendHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A49C6221D07A4300FEBB7E /* DQMListExpendHeaderView.m */; };
+		59A49C6921D0B0BC00FEBB7E /* UIViewAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A49C6821D0B0BC00FEBB7E /* UIViewAnimationViewController.m */; };
+		59A49C7021D0B5A800FEBB7E /* RQShineLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A49C6E21D0B5A800FEBB7E /* RQShineLabel.m */; };
+		59A49C7221D0B5CA00FEBB7E /* rqshinelabel.gif in Resources */ = {isa = PBXBuildFile; fileRef = 59A49C7121D0B5CA00FEBB7E /* rqshinelabel.gif */; };
+		59A49C7621D0B61100FEBB7E /* RQShineLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A49C7521D0B61100FEBB7E /* RQShineLabelViewController.m */; };
+		59A49C7921D0BB9D00FEBB7E /* wallpaper1.png in Resources */ = {isa = PBXBuildFile; fileRef = 59A49C7821D0BB9D00FEBB7E /* wallpaper1.png */; };
+		59A49C7B21D0BBAD00FEBB7E /* wallpaper2.png in Resources */ = {isa = PBXBuildFile; fileRef = 59A49C7A21D0BBAD00FEBB7E /* wallpaper2.png */; };
+		59A49C7F21D2155100FEBB7E /* CABaseAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A49C7E21D2155100FEBB7E /* CABaseAnimationViewController.m */; };
+		59A49C8221D224C200FEBB7E /* CABaseKeyFrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A49C8121D224C200FEBB7E /* CABaseKeyFrameViewController.m */; };
+		59A49C8521D22DF400FEBB7E /* AndroidActivityPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A49C8421D22DF400FEBB7E /* AndroidActivityPushViewController.m */; };
+		59A49C8A21D22E7C00FEBB7E /* AndroidActivityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A49C8921D22E7C00FEBB7E /* AndroidActivityTableViewCell.m */; };
+		59A49C8C21D22F0300FEBB7E /* pkq.png in Resources */ = {isa = PBXBuildFile; fileRef = 59A49C8B21D22F0300FEBB7E /* pkq.png */; };
+		59A49C8F21D3046400FEBB7E /* AndroidDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A49C8E21D3046400FEBB7E /* AndroidDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,10 +144,36 @@
 		59A49C3421D06F7E00FEBB7E /* DQMAutoRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQMAutoRefreshFooter.m; sourceTree = "<group>"; };
 		59A49C3521D06F7E00FEBB7E /* StaticListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticListTableViewCell.h; sourceTree = "<group>"; };
 		59A49C4F21D0712700FEBB7E /* dqmBasePrefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dqmBasePrefix.pch; sourceTree = "<group>"; };
-		59A49C5121D071C900FEBB7E /* AnimationHomeListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationHomeListViewController.h; sourceTree = "<group>"; };
-		59A49C5221D071C900FEBB7E /* AnimationHomeListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationHomeListViewController.m; sourceTree = "<group>"; };
 		59A49C5421D0732700FEBB7E /* DQMTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DQMTabBarController.h; sourceTree = "<group>"; };
 		59A49C5521D0732700FEBB7E /* DQMTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQMTabBarController.m; sourceTree = "<group>"; };
+		59A49C5921D07A4300FEBB7E /* DQMFoldingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQMFoldingTableViewController.h; sourceTree = "<group>"; };
+		59A49C5A21D07A4300FEBB7E /* DQMFoldingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQMFoldingTableViewController.m; sourceTree = "<group>"; };
+		59A49C5C21D07A4300FEBB7E /* DQMTeam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQMTeam.h; sourceTree = "<group>"; };
+		59A49C5D21D07A4300FEBB7E /* DQMGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQMGroup.h; sourceTree = "<group>"; };
+		59A49C5E21D07A4300FEBB7E /* DQMGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQMGroup.m; sourceTree = "<group>"; };
+		59A49C5F21D07A4300FEBB7E /* DQMTeam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQMTeam.m; sourceTree = "<group>"; };
+		59A49C6121D07A4300FEBB7E /* DQMListExpendHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQMListExpendHeaderView.h; sourceTree = "<group>"; };
+		59A49C6221D07A4300FEBB7E /* DQMListExpendHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQMListExpendHeaderView.m; sourceTree = "<group>"; };
+		59A49C6721D0B0BC00FEBB7E /* UIViewAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIViewAnimationViewController.h; sourceTree = "<group>"; };
+		59A49C6821D0B0BC00FEBB7E /* UIViewAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewAnimationViewController.m; sourceTree = "<group>"; };
+		59A49C6E21D0B5A800FEBB7E /* RQShineLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQShineLabel.m; sourceTree = "<group>"; };
+		59A49C6F21D0B5A800FEBB7E /* RQShineLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQShineLabel.h; sourceTree = "<group>"; };
+		59A49C7121D0B5CA00FEBB7E /* rqshinelabel.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = rqshinelabel.gif; sourceTree = "<group>"; };
+		59A49C7421D0B61100FEBB7E /* RQShineLabelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RQShineLabelViewController.h; sourceTree = "<group>"; };
+		59A49C7521D0B61100FEBB7E /* RQShineLabelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RQShineLabelViewController.m; sourceTree = "<group>"; };
+		59A49C7821D0BB9D00FEBB7E /* wallpaper1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallpaper1.png; sourceTree = "<group>"; };
+		59A49C7A21D0BBAD00FEBB7E /* wallpaper2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallpaper2.png; sourceTree = "<group>"; };
+		59A49C7D21D2155100FEBB7E /* CABaseAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CABaseAnimationViewController.h; sourceTree = "<group>"; };
+		59A49C7E21D2155100FEBB7E /* CABaseAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CABaseAnimationViewController.m; sourceTree = "<group>"; };
+		59A49C8021D224C200FEBB7E /* CABaseKeyFrameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CABaseKeyFrameViewController.h; sourceTree = "<group>"; };
+		59A49C8121D224C200FEBB7E /* CABaseKeyFrameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CABaseKeyFrameViewController.m; sourceTree = "<group>"; };
+		59A49C8321D22DF400FEBB7E /* AndroidActivityPushViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AndroidActivityPushViewController.h; sourceTree = "<group>"; };
+		59A49C8421D22DF400FEBB7E /* AndroidActivityPushViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AndroidActivityPushViewController.m; sourceTree = "<group>"; };
+		59A49C8821D22E7C00FEBB7E /* AndroidActivityTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AndroidActivityTableViewCell.h; sourceTree = "<group>"; };
+		59A49C8921D22E7C00FEBB7E /* AndroidActivityTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AndroidActivityTableViewCell.m; sourceTree = "<group>"; };
+		59A49C8B21D22F0300FEBB7E /* pkq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pkq.png; sourceTree = "<group>"; };
+		59A49C8D21D3046400FEBB7E /* AndroidDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AndroidDetailViewController.h; sourceTree = "<group>"; };
+		59A49C8E21D3046400FEBB7E /* AndroidDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AndroidDetailViewController.m; sourceTree = "<group>"; };
 		5EA2970AD099956DD616DFC6 /* Pods-DQM_AnimationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DQM_AnimationDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DQM_AnimationDemo/Pods-DQM_AnimationDemo.release.xcconfig"; sourceTree = "<group>"; };
 		8E3FEB434C806C455062F0EF /* Pods-DQM_AnimationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DQM_AnimationDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DQM_AnimationDemo/Pods-DQM_AnimationDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		EC1ED48DFA264B2DFAF71D95 /* Pods_DQM_AnimationDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DQM_AnimationDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -205,7 +246,10 @@
 				59A49BFA21D06F7D00FEBB7E /* Helpers */,
 				59A49C2C21D06F7D00FEBB7E /* DqmBaseAssets.xcassets */,
 				59A49C4F21D0712700FEBB7E /* dqmBasePrefix.pch */,
-				59A49C5021D0718900FEBB7E /* AnimationHomeList */,
+				59A49C5721D07A4300FEBB7E /* FoldTableViewController */,
+				59A49C7C21D2153000FEBB7E /* CABaseAnimation */,
+				59A49C6D21D0B59000FEBB7E /* OtherAnimation */,
+				59A49C5021D0718900FEBB7E /* UIViewAnimation */,
 				59A49BC821D0690400FEBB7E /* AppDelegate.h */,
 				59A49BC921D0690400FEBB7E /* AppDelegate.m */,
 				59A49BCB21D0690400FEBB7E /* ViewController.h */,
@@ -370,13 +414,108 @@
 			path = BaseViews;
 			sourceTree = "<group>";
 		};
-		59A49C5021D0718900FEBB7E /* AnimationHomeList */ = {
+		59A49C5021D0718900FEBB7E /* UIViewAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				59A49C5121D071C900FEBB7E /* AnimationHomeListViewController.h */,
-				59A49C5221D071C900FEBB7E /* AnimationHomeListViewController.m */,
+				59A49C6721D0B0BC00FEBB7E /* UIViewAnimationViewController.h */,
+				59A49C6821D0B0BC00FEBB7E /* UIViewAnimationViewController.m */,
 			);
-			path = AnimationHomeList;
+			path = UIViewAnimation;
+			sourceTree = "<group>";
+		};
+		59A49C5721D07A4300FEBB7E /* FoldTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				59A49C5821D07A4300FEBB7E /* controller */,
+				59A49C5B21D07A4300FEBB7E /* model */,
+				59A49C6021D07A4300FEBB7E /* view */,
+			);
+			path = FoldTableViewController;
+			sourceTree = "<group>";
+		};
+		59A49C5821D07A4300FEBB7E /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				59A49C5921D07A4300FEBB7E /* DQMFoldingTableViewController.h */,
+				59A49C5A21D07A4300FEBB7E /* DQMFoldingTableViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		59A49C5B21D07A4300FEBB7E /* model */ = {
+			isa = PBXGroup;
+			children = (
+				59A49C5D21D07A4300FEBB7E /* DQMGroup.h */,
+				59A49C5E21D07A4300FEBB7E /* DQMGroup.m */,
+				59A49C5C21D07A4300FEBB7E /* DQMTeam.h */,
+				59A49C5F21D07A4300FEBB7E /* DQMTeam.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		59A49C6021D07A4300FEBB7E /* view */ = {
+			isa = PBXGroup;
+			children = (
+				59A49C6121D07A4300FEBB7E /* DQMListExpendHeaderView.h */,
+				59A49C6221D07A4300FEBB7E /* DQMListExpendHeaderView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		59A49C6D21D0B59000FEBB7E /* OtherAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				59A49C8721D22E1300FEBB7E /* AndriodActivity */,
+				59A49C7321D0B5CE00FEBB7E /* RQShineLabel */,
+			);
+			path = OtherAnimation;
+			sourceTree = "<group>";
+		};
+		59A49C7321D0B5CE00FEBB7E /* RQShineLabel */ = {
+			isa = PBXGroup;
+			children = (
+				59A49C7721D0BB7C00FEBB7E /* resources */,
+				59A49C6F21D0B5A800FEBB7E /* RQShineLabel.h */,
+				59A49C6E21D0B5A800FEBB7E /* RQShineLabel.m */,
+				59A49C7421D0B61100FEBB7E /* RQShineLabelViewController.h */,
+				59A49C7521D0B61100FEBB7E /* RQShineLabelViewController.m */,
+			);
+			path = RQShineLabel;
+			sourceTree = "<group>";
+		};
+		59A49C7721D0BB7C00FEBB7E /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				59A49C7A21D0BBAD00FEBB7E /* wallpaper2.png */,
+				59A49C7821D0BB9D00FEBB7E /* wallpaper1.png */,
+				59A49C7121D0B5CA00FEBB7E /* rqshinelabel.gif */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		59A49C7C21D2153000FEBB7E /* CABaseAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				59A49C7D21D2155100FEBB7E /* CABaseAnimationViewController.h */,
+				59A49C7E21D2155100FEBB7E /* CABaseAnimationViewController.m */,
+				59A49C8021D224C200FEBB7E /* CABaseKeyFrameViewController.h */,
+				59A49C8121D224C200FEBB7E /* CABaseKeyFrameViewController.m */,
+			);
+			path = CABaseAnimation;
+			sourceTree = "<group>";
+		};
+		59A49C8721D22E1300FEBB7E /* AndriodActivity */ = {
+			isa = PBXGroup;
+			children = (
+				59A49C8B21D22F0300FEBB7E /* pkq.png */,
+				59A49C8321D22DF400FEBB7E /* AndroidActivityPushViewController.h */,
+				59A49C8421D22DF400FEBB7E /* AndroidActivityPushViewController.m */,
+				59A49C8821D22E7C00FEBB7E /* AndroidActivityTableViewCell.h */,
+				59A49C8921D22E7C00FEBB7E /* AndroidActivityTableViewCell.m */,
+				59A49C8D21D3046400FEBB7E /* AndroidDetailViewController.h */,
+				59A49C8E21D3046400FEBB7E /* AndroidDetailViewController.m */,
+			);
+			path = AndriodActivity;
 			sourceTree = "<group>";
 		};
 		C2D8981B6868C9121BF11B69 /* Frameworks */ = {
@@ -492,9 +631,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59A49C7221D0B5CA00FEBB7E /* rqshinelabel.gif in Resources */,
+				59A49C8C21D22F0300FEBB7E /* pkq.png in Resources */,
 				59A49BD521D0690400FEBB7E /* LaunchScreen.storyboard in Resources */,
 				59A49BD221D0690400FEBB7E /* Assets.xcassets in Resources */,
 				59A49C4A21D06F7E00FEBB7E /* DqmBaseAssets.xcassets in Resources */,
+				59A49C7921D0BB9D00FEBB7E /* wallpaper1.png in Resources */,
+				59A49C7B21D0BBAD00FEBB7E /* wallpaper2.png in Resources */,
 				59A49BD021D0690400FEBB7E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -577,7 +720,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59A49C7F21D2155100FEBB7E /* CABaseAnimationViewController.m in Sources */,
 				59A49C4221D06F7E00FEBB7E /* UIButton+DQM.m in Sources */,
+				59A49C6621D07A4300FEBB7E /* DQMListExpendHeaderView.m in Sources */,
 				59A49BCD21D0690400FEBB7E /* ViewController.m in Sources */,
 				59A49BD821D0690400FEBB7E /* main.m in Sources */,
 				59A49C3C21D06F7E00FEBB7E /* DQMBaseViewController.m in Sources */,
@@ -589,21 +734,30 @@
 				59A49C4D21D06F7E00FEBB7E /* StaticListTableViewCell.m in Sources */,
 				59A49C3921D06F7E00FEBB7E /* DQMConst.m in Sources */,
 				59A49C3E21D06F7E00FEBB7E /* DQMNavUIBaseViewController.m in Sources */,
+				59A49C6321D07A4300FEBB7E /* DQMFoldingTableViewController.m in Sources */,
+				59A49C6521D07A4300FEBB7E /* DQMTeam.m in Sources */,
 				59A49C3F21D06F7E00FEBB7E /* DQMTextViewController.m in Sources */,
 				59A49C4521D06F7E00FEBB7E /* MBProgressHUD+DQM.m in Sources */,
+				59A49C8A21D22E7C00FEBB7E /* AndroidActivityTableViewCell.m in Sources */,
+				59A49C8F21D3046400FEBB7E /* AndroidDetailViewController.m in Sources */,
 				59A49C5621D0732700FEBB7E /* DQMTabBarController.m in Sources */,
+				59A49C8221D224C200FEBB7E /* CABaseKeyFrameViewController.m in Sources */,
 				59A49C4721D06F7E00FEBB7E /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				59A49C4B21D06F7E00FEBB7E /* DQMDefaultTableViewCell.m in Sources */,
 				59A49BCA21D0690400FEBB7E /* AppDelegate.m in Sources */,
+				59A49C7021D0B5A800FEBB7E /* RQShineLabel.m in Sources */,
 				59A49C4921D06F7E00FEBB7E /* StaticSectionItem.m in Sources */,
+				59A49C6921D0B0BC00FEBB7E /* UIViewAnimationViewController.m in Sources */,
 				59A49C3B21D06F7E00FEBB7E /* DQMRequestBaseViewController.m in Sources */,
 				59A49C4421D06F7E00FEBB7E /* UIView+DQMFrame.m in Sources */,
-				59A49C5321D071C900FEBB7E /* AnimationHomeListViewController.m in Sources */,
 				59A49C3821D06F7E00FEBB7E /* QMSGeneralHelpers.m in Sources */,
+				59A49C7621D0B61100FEBB7E /* RQShineLabelViewController.m in Sources */,
 				59A49C3721D06F7E00FEBB7E /* JXTAlertController.m in Sources */,
 				59A49C4121D06F7E00FEBB7E /* UIWindow+CurrentViewController.m in Sources */,
 				59A49C4C21D06F7E00FEBB7E /* DQMNavigationBar.m in Sources */,
+				59A49C6421D07A4300FEBB7E /* DQMGroup.m in Sources */,
 				59A49C4E21D06F7E00FEBB7E /* DQMAutoRefreshFooter.m in Sources */,
+				59A49C8521D22DF400FEBB7E /* AndroidActivityPushViewController.m in Sources */,
 				59A49C4621D06F7E00FEBB7E /* UIImageView+SDwebImageFade.m in Sources */,
 				59A49C3D21D06F7E00FEBB7E /* DQMNavigationController.m in Sources */,
 			);

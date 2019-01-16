@@ -18,6 +18,7 @@
 
 - (void)viewDidLoad {
   [super viewDidLoad];
+
   [self setupBaseTableViewUI];
 }
 
@@ -33,10 +34,11 @@
   self.tableView.delegate = self;
   self.tableView.dataSource = self;
   
-  // 适配 ios 11
-  self.tableView.estimatedRowHeight = 0;
-  self.tableView.estimatedSectionHeaderHeight = 0;
-  self.tableView.estimatedSectionFooterHeight = 0;
+  if (@available(iOS 11.0, *)) {
+    self.tableView.estimatedSectionFooterHeight = 0;
+    self.tableView.estimatedSectionHeaderHeight = 0;
+    self.tableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+  }
 }
 
 #pragma mark - scrollDeleggate
@@ -65,8 +67,8 @@
   {
     UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:self.tableViewStyle];
     [self.view addSubview:tableView];
-    tableView.estimatedRowHeight = 44;
     tableView.rowHeight = UITableViewAutomaticDimension;
+    tableView.estimatedRowHeight = 44;
     tableView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     _tableView = tableView;
   }

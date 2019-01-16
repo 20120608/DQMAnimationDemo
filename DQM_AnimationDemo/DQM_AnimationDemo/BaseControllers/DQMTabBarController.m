@@ -8,7 +8,7 @@
 
 #import "DQMTabBarController.h"
 #import "DQMNavigationController.h"                     //导航栏  给每个首页套上导航栏
-#import "AnimationHomeListViewController.h"             //动画首页列表
+#import "DQMFoldingTableViewController.h"               //动画首页列表
 
 @interface DQMTabBarController () <UITabBarControllerDelegate>
 
@@ -31,7 +31,7 @@
 
 - (void)addChildViewControllers
 {
-  DQMNavigationController *one = [[DQMNavigationController alloc] initWithRootViewController:[[AnimationHomeListViewController alloc] initWithTitle:@"首页列表"]];
+  DQMNavigationController *one = [[DQMNavigationController alloc] initWithRootViewController:[[DQMFoldingTableViewController alloc] initWithTitle:@"首页列表"]];
   
 //  LMJNavigationController *two = [[LMJNavigationController alloc] initWithRootViewController:[[LMJNewViewController alloc] init]];
 //
