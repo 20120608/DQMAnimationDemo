@@ -26,17 +26,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
   
-  UIView *animationView = ({
-    UIView *view = [[UIView alloc] init];
-    [self.dqm_navgationBar addSubview: view];
-    view.backgroundColor = QMHexColor(@"999999");
-    [view mas_makeConstraints:^(MASConstraintMaker *make) {
-      make.centerX.mas_equalTo(self.view.mas_centerX).offset(10);
-      make.top.mas_equalTo(20).offset(10);
-      make.size.mas_equalTo(CGSizeMake(40, 40));
-    }];
-    view;
-  });
+  UIView *animationView = [[UIView alloc] init];
+  [self.dqm_navgationBar addSubview: animationView];
+  animationView.backgroundColor = QMHexColor(@"999999");
+  [animationView mas_makeConstraints:^(MASConstraintMaker *make) {
+    make.centerX.mas_equalTo(self.view.mas_centerX).offset(10);
+    make.top.mas_equalTo(20).offset(10);
+    make.size.mas_equalTo(CGSizeMake(40, 40));
+  }];
   
 }
 
